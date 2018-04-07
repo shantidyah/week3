@@ -1,31 +1,28 @@
 function tentukanDeretAritmatika(arr) {
-  var b=[];
-  var c="";
-  for(i=0;i<(arr.length-1);i++){
-    b.push(arr[i+1]-arr[i]);
-  }
-  c=b.join();
-  if(c===c.split('').reverse().join('')){
-    return true;
+  var kali=arr[1]-arr[0];
+for(i=0;i<arr.length-1;i++){
+  var a=arr[i+1]-arr[i];
+  if(kali==a){
+
   }
   else{
     return false;
   }
-//   return b;
+}
+  return true;
+  // var b=[];
+  // var c="";
+  // for(i=0;i<(arr.length-1);i++){
+  //   b.push(arr[i+1]-arr[i]);
+  // }
+  // c=b.join();
+  // if(c===c.split('').reverse().join('')){
+  //   return true;
+  // }
+  // else{
+  //   return false;
+  // }
 
-//   if(b==b.reverse()){
-//     return true;
-//   }
-//   else{
-//     return false;
-//   }
-//   for(j=0;j<b.length;j++){
-//     if(b[j]===b[j+1]){
-//       return true;
-//     }
-//     else
-//       return false;
-//   }
 }
 
 // TEST CASES
